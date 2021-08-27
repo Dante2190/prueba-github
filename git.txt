@@ -1,0 +1,40 @@
+git comandos basico:
+
+git init: sirve para inicializar nuestro proyecto
+
+git add: sirve para agregar los archivos para que esten listos al repositorio 
+
+git status: da informacion sobre los archivos que estan listos para hacer el commit
+
+git commit: sirve para confirmar los cabios agregados a los archivos con -m para escribir un msg al commit
+
+git add . sirve para agregar todos los archivos de golpe 
+
+git add --patch: sirve para agregar partes de codigos especificos 
+
+git diff: sirve para ver las diferencias entre archivos que ya tenemos en el ultimo commit contra lo que hemos 
+modificado actualmente
+
+git log: nos permite ver el historial de commit en nuestro proyecto
+
+git log --oneline: sirve para tener una vista previa mas sinplificada
+
+git log --stat: muestra todos los cambios en cada uno de  los commit hechos en el proyecto
+
+git log -p: da el detalle por commit y muestra todo el codigo entre cada commit
+
+git branch: sirve para ver todas las ramas del proyecto 
+
+git branch "nombre de la nueva rama" para crear una nueva rama en el repositorio
+
+git checkout "nombre de la rama" sirve para cambiar entre ramas en el repositorio
+
+git checkout -b "nueva rama": crea la nueva rama y automaticamente cambia a ala nueva rama 
+
+git merge "nombre de la rama" : sirve para combinar los cambios hechos entre 2 ramas, pero tenemos que estar en la rama principal 
+
+git remote add: 
+
+git push: sirve para subir nuestro codigo a nuestro repositorio 
+
+git pull: 
