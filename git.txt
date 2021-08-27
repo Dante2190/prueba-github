@@ -40,3 +40,19 @@ git push "rama remota" "nombre la rama principal": sirve para subir nuestro codi
 git pull "rama remota" "nombre la rama principal": descargar todo el contenido de nuestro repositorio 
 
 git fetch> es igual q git pull pero hay que hacer un merge para traer el codigo en la rama master 
+
+git clone: sirve para clonar un repositorio que no sea nuestro tenemos
+
+git stash: sirve para para guardar cambios temporalmente y no se guardaran en la rama master 
+
+git stash pop: sirve para traer los cambios guardadores temporalmente a otra rama 
+
+git checkout <hash>: sirve para navegar en los commit y ver los cabios hechos antes y despues 
+
+git revert HEAD: sirve para desacer un commit pero no borra el commit anterior si no que desace los cambios y crea otro commit
+
+git reset --hard : sirve para revertit cambios pero borra todos los commit hasta donde nos regresamos 
+
+git commit --amend: agregar o quitar cambios al ultimo commit y no
+
+git rebase: sirve para
