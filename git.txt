@@ -35,6 +35,8 @@ git merge "nombre de la rama" : sirve para combinar los cambios hechos entre 2 r
 
 git remote add: 
 
-git push: sirve para subir nuestro codigo a nuestro repositorio 
+git push "rama remota" "nombre la rama principal": sirve para subir nuestro codigo a nuestro repositorio 
 
-git pull: 
+git pull: sirve para descargar todo el contenido de nuestro repositorio 
+
+git fetch> es igual q git pull pero hay que hacer un merge para traer el codigo en la rama master 
