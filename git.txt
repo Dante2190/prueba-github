@@ -37,6 +37,6 @@ git remote add:
 
 git push "rama remota" "nombre la rama principal": sirve para subir nuestro codigo a nuestro repositorio 
 
-git pull: sirve para descargar todo el contenido de nuestro repositorio 
+git pull "rama remota" "nombre la rama principal": descargar todo el contenido de nuestro repositorio 
 
 git fetch> es igual q git pull pero hay que hacer un merge para traer el codigo en la rama master 
